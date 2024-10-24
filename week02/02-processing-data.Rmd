@@ -20,6 +20,7 @@ Geiecke and Ryan Hübert._
 library(tidyverse)
 ```
 
+
 ### Data
 
 We will analyse some macroeconomic time series from the US and Europe during the 

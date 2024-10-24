@@ -26,7 +26,7 @@ folder you would like to store your local copy of your repo. You should replace
 
 ```{bash, eval = FALSE}
 cd <path>
-git _________ <url>
+git clone <url>
 cd _________
 ```
 
@@ -38,7 +38,7 @@ Next, stage, commit and push your changes to your repo, using "added seminar
 file" as your commit message.
 
 ```{bash, eval = FALSE}
-git _________ 03-exercises-tabular-data.Rmd
+git add 03-exercises-tabular-data.Rmd
 git _________ -m "_________"
 git _________
 ```
