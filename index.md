@@ -113,30 +113,36 @@ This week discusses processing tabular data in R with functions from the `tidyve
 
 ### 3. Data visualisation
 
-The lecture this week will offer an overview of the principles of exploratory data analysis through (good) data visualization. In the coding session and seminars, we will practice producing our own graphs using ggplot2.
+The lecture this week will offer an overview of the principles of exploratory data analysis through summarising data and (good) data visualisation. In the coding session and seminars, we will practice producing our own graphs using ggplot2.
 
 
 #### Lecture
 
-- [Slides](x)
-- Lecture code: [Anscombe](x), [ggplot2 walkthrough](x)
-- Data: [Congressional Facebook posts](x), [unemployment data](x)
-- Further reference code: [ggplot2 basics](x), [ggplot2 scales, axes, and legends](x)
+- [Slides](week03/MY472-week03-visualisation.pdf)
+- Lecture code: [Anscombe quartet](week03/01-anscombe.Rmd), [ggplot2 walkthrough](week03/02-ggplot-walkthrough.Rmd)
+- Data: [Congressional Facebook posts](week03/data/fb-congress-data.csv), [unemployment data](week03/data/unemployment.csv)
+- Further reference code: [ggplot2 basics](week03/03a-ggplot2-basics.Rmd), [ggplot2 scales, axes, and legends](week03/03b-scales-axes-legends.Rmd)
 
 
 #### Seminar
 
-- Code: [Exercises in visualistion](x), [solution](x)
-- Graphic to replicate: [Unemployment rates](x)
+- Code: [Exercises in visualistion](week03/04-exercises-visualisation.Rmd), [solution](week03/04-exercises-visualisation-solution.Rmd)
+- Graphic to replicate: [Unemployment rates](week03/04-unemployment.png)
 
 #### Reading
 
 * Wickham, Hadley and Garett Grolemund.  2017.  _R for Data Science: Import, Tidy, Transform, Visualize, and Model Data_.  Sebastopol, CA: O'Reilly.  [Data visualization](https://r4ds.had.co.nz/data-visualisation.html), [Graphics for communication](https://r4ds.had.co.nz/graphics-for-communication.html) (Ch. 1 and 22 of the print edition).
 
+
 #### Further reading
+
+* Healy, Kieran. 2019. _Data Visualization: A Practical Introduction._ Princeton, NJ: Princeton University Press, ch. 1. Book available at <https://socviz.co/>.
 * Hughes, A. (2015) ["Visualizing inequality: How graphical emphasis
-shapes public opinion"](https://journals.sagepub.com/doi/abs/10.1177/2053168015622073) Research and Politics.
+shapes public opinion"](https://journals.sagepub.com/doi/abs/10.1177/2053168015622073) Research and Politics.	
 * Tufte, E. (2002) ["The visual display of quantitative information"](https://www.edwardtufte.com/tufte/books_vdqi).
+* Wilkinson, Leland and Graham Wills. 2005. _The Grammar of Graphics_. 2nd ed. New York: Springer, 2005. Ch. 1. [E-book available at LSE Library](https://librarysearch.lse.ac.uk/permalink/44LSE_INST/1f110cn/alma99128824410302021).
+
+
 
 ### Formative problem set
 
@@ -152,14 +158,22 @@ We will learn how to work with unstructured data in the form of text and discuss
 
 #### Lecture
 
-- [Slides](x)
-- Code: [Regular expressions in R](x), [text analysis](x), [parsing pdfs](x)
-- Data: [Sample texts](x), [Keynes' "General Theory" cover](x)
+- [Slides](week04/MY472-week04-text.pdf)
+- Code: [Encoding and regex](week04/01-encoding-regex.Rmd), [text analysis](week04/02-text-analysis.Rmd), [parsing pdfs](week04/03-parsing-pdfs.Rmd)
+- Data: 
+	- [Keynes' "General Theory" cover](week04/data/general_theory_cover.pdf)
+	- [Methodology about us (UTF-8)](week04/data/methodology-8.txt)
+	- [Methodology about us (UTF-16)](week04/data/methodology-16.txt)
+	- [Methodology about us (UTF-32)](week04/data/methodology-32.txt)
+	- [UTF example (8-bit)](week04/data/utf-examples-8.txt)
+	- [UTF example (16-bit)](week04/data/utf-examples-16.txt)
+	- [UTF example (32-bit)](week04/data/utf-examples-32.txt)
+	- [Shanghai](week04/data/shanghai.txt)
 
 #### Seminar
 
-- Code: [Exercises in text analysis](x), [solution](x)
-- Data: [UoL institutions](x)
+- Code: [Exercises in text analysis](week04/04-exercises-text-analysis.Rmd), [solution](week04/04-exercises-text-analysis-solution.Rmd)
+- Data: [news article](week04/data/news-article-1.txt), [UoL institutions](week04/data/uol.txt) 
 
 
 #### Reading
@@ -168,7 +182,7 @@ We will learn how to work with unstructured data in the form of text and discuss
 
 #### Further reading
 - Wickham, Hadley and Garett Grolemund.  2017, [Chapter 14](http://r4ds.had.co.nz/strings.html)
-- [Regular expressions cheat sheet](x)
+- [Regular expressions cheat sheet](https://github.com/rstudio/cheatsheets/blob/main/regex.pdf)
 - [Regular expressions in R vignette](https://cran.r-project.org/web/packages/stringr/vignettes/regular-expressions.html)
 
 
